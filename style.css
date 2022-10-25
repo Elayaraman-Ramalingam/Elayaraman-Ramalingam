@@ -1,10 +1,58 @@
 body{
-    background-color: aqua;
+    background-image: linear-gradient(to right top, #051937, #00456c, #00779e, #00a8c6, #07b4ba);
+    font-family:"ROboto Slab";
+    color: #d8fffe;
+    background-repeat: no-repeat;
+}
+header{
+    margin:0 0 25px;
 }
 h2{
     font-family: "Roboto Slab";
-    color: red;
+    color: #FCFCD4;
+    text-align: center;
+    margin: 10px;
+    text-shadow: 2px 2px #404040;
 }
 p{
     font-family: "Poppins";
+    padding:25px;
+    text-align: center;
+    
+}
+*{
+    padding: auto;
+    margin: auto;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+nav{
+    height: 70px;
+    width: auto;
+    background-image: linear-gradient(to right top,#00B0B6,#00ADBA,#00ADBA);
+    color: azure;
+}
+label.logo{
+    color: white;
+    font-size: 30px;
+    line-height: 70px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 25px;
+    text-decoration: none;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 70px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
 }
