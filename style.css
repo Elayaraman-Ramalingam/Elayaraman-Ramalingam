@@ -1,8 +1,8 @@
 body{
-    background-image: linear-gradient(to right top, #051937, #00456c, #00779e, #00a8c6, #07b4ba);
+    background-image: linear-gradient(to right bottom,#a1c4fd,#c2e9fd);
     font-family:"ROboto Slab";
-    color: #d8fffe;
-    background-repeat: no-repeat;
+    color: #1d242c;
+    background-repeat:repeat;
 }
 header{
     margin:0 0 25px;
@@ -31,8 +31,9 @@ p{
 nav{
     height: 70px;
     width: auto;
-    background-image: linear-gradient(to right top,#00B0B6,#00ADBA,#00ADBA);
+    background-image:linear-gradient(to right bottom,#56CCF2,#2f80ed);
     color: azure;
+    box-shadow: #404040;
 }
 label.logo{
     color: white;
@@ -40,19 +41,33 @@ label.logo{
     line-height: 70px;
     padding: 0 100px;
     font-weight: bold;
+    cursor: pointer;
 }
 nav ul{
     float: right;
     margin-right: 25px;
     text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    justify-content: space-evenly;
 }
-nav ul li{
-    display: inline-block;
+nav ul {
+    
     line-height: 70px;
-    margin: 0 5px;
+    margin: 0 15px;
+
 }
 nav ul li a{
     color: white;
     font-size: 16px;
     text-transform: uppercase;
+    padding: 8px;
+}
+nav ul li a:hover{
+    transition: .2s;
+    font-size: large;
+    cursor:pointer;
+    padding-inline-start: 5px;
+    
 }
