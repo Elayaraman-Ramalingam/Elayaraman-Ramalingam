@@ -3,6 +3,7 @@ body{
     font-family:"ROboto Slab";
     color: #1d242c;
     background-repeat:repeat;
+
 }
 header{
     margin:0 0 25px;
@@ -11,12 +12,12 @@ h2{
     font-family: "Roboto Slab";
     color: #FCFCD4;
     text-align: center;
-    margin: 10px;
+        display: block;
     text-shadow: 2px 2px #404040;
 }
 p{
     font-family: "Poppins";
-    padding:25px;
+    padding:50px;
     text-align: center;
     
 }
@@ -26,14 +27,18 @@ p{
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 nav{
     height: 70px;
-    width: auto;
+    width: 100%;
     background-image:linear-gradient(to right bottom,#56CCF2,#2f80ed);
     color: azure;
     box-shadow: #404040;
+    position: fixed ;
+    top: 0;
+    box-shadow: ;
 }
 label.logo{
     color: white;
@@ -70,4 +75,11 @@ nav ul li a:hover{
     cursor:pointer;
     padding-inline-start: 5px;
     
+}
+section{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
 }
